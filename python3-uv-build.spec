@@ -14,6 +14,7 @@ Source1:	uv_build-%{version}-vendor.tar.xz
 # Source1-md5:	1ef584e94438083e196b37170e7014ac
 URL:		https://pypi.org/project/uv-build/
 BuildRequires:	bzip2-devel
+BuildRequires:	cargo
 BuildRequires:	python3-build
 BuildRequires:	python3-devel >= 1:3.8
 BuildRequires:	python3-installer
