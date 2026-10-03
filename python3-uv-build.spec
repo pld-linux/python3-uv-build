@@ -1,17 +1,17 @@
 Summary:	The uv build backend
 Summary(pl.UTF-8):	Backend budowania uv
 Name:		python3-uv-build
-Version:	0.10.9
+Version:	0.12.22
 Release:	1
 License:	MIT or Apache v2.0
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/uv-build/
 Source0:	https://files.pythonhosted.org/packages/source/u/uv-build/uv_build-%{version}.tar.gz
-# Source0-md5:	86069f8132db847033a1a1ab30c78ddf
+# Source0-md5:	9ac3056141e8fb12a85c9f42f4100703
 # cargo vendor-filterer --platform='*-unknown-linux-*' --tier=2 $(for f in crates/uv-*/Cargo.toml ; do echo -s $f ; done)
 # tar cJf uv_build-%{version}-vendor.tar.xz vendor Cargo.lock
 Source1:	uv_build-%{version}-vendor.tar.xz
-# Source1-md5:	1ef584e94438083e196b37170e7014ac
+# Source1-md5:	d5212b9f731b8b60306f4c45fd09f59a
 URL:		https://pypi.org/project/uv-build/
 BuildRequires:	bzip2-devel
 BuildRequires:	cargo
